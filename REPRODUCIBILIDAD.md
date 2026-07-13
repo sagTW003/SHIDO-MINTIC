@@ -11,7 +11,7 @@ La base de datos **viaja dentro del repo** como un dump comprimido (≈15 MB), a
 que **clonar = tener los datos**. No hay descargas externas ni pasos manuales.
 
 ```
-ODEM_PORTATIL/
+SHIDO-MINTIC/
 ├── scripts/init-sql/
 │   ├── create_schema.sql          # Estructura REAL de las 5 tablas
 │   └── data/
@@ -28,9 +28,9 @@ ODEM_PORTATIL/
 ### Base de datos `odemiro_db` (MySQL 8.0)
 | Tabla | Filas | Contenido |
 |---|---|---|
-| `snies_matriculados`  | ~921.000 | Oferta académica SNIES (programas, IES, matriculados) |
-| `desercion_academica` | ~3.300   | Deserción por programa/estrato/género/facultad |
-| `modelado_aptitudes`  | ~164.000 | Modelado de aptitudes |
+| `snies_matriculados`  | 1.048.575 | Oferta académica SNIES (programas, IES, matriculados) |
+| `desercion_academica` | 3.368    | Deserción por programa/estrato/género/facultad |
+| `modelado_aptitudes`  | 163.739  | Modelado de aptitudes |
 | `geih_departamento_resumen` | 33 | Panorama laboral (ingreso, informalidad, desempleo) por departamento — agregado GEIH/DANE, ver `scripts/consolidar_geih.py` |
 | `geih_sector_departamento` | 1.959 | Igual, desagregado por sector económico (CIIU) |
 
@@ -50,8 +50,8 @@ ODEM_PORTATIL/
 ## 🚀 Opción A — Arranque automático (recomendado)
 
 ```bash
-git clone <URL-DEL-REPO> ODEM_PORTATIL
-cd ODEM_PORTATIL
+git clone https://github.com/sagTW003/SHIDO-MINTIC.git
+cd SHIDO-MINTIC
 
 cp .env.example .env
 #   edita .env  ->  pon tu GEMINI_API_KEY y NVIDIA_API_KEY

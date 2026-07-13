@@ -48,9 +48,9 @@ def print(*args, **kwargs):
 # ================================================================
 
 def _cargar_env():
-    """Carga variables de un .env en la raiz de ODEM_PORTATIL (sin dependencias)."""
+    """Carga variables de un .env en la raiz de SHIDO_MINTIC (sin dependencias)."""
     aqui = os.path.dirname(os.path.abspath(__file__))
-    raiz = os.path.dirname(os.path.dirname(os.path.dirname(aqui)))  # .../ODEM_PORTATIL
+    raiz = os.path.dirname(os.path.dirname(os.path.dirname(aqui)))  # .../SHIDO_MINTIC
     ruta_env = os.path.join(raiz, ".env")
     if not os.path.exists(ruta_env):
         return
@@ -1292,7 +1292,7 @@ Redacta el reporte completo con encabezados claros. Usa lenguaje cercano y empá
             api_key = os.environ.get("GEMINI_API_KEY", "")
             if not api_key:
                 # Sin key NO se inventa nada ni se cuelga: se aborta con error honesto.
-                raise RuntimeError("GEMINI_API_KEY no configurada. Define la variable de entorno o el archivo .env de ODEM_PORTATIL.")
+                raise RuntimeError("GEMINI_API_KEY no configurada. Define la variable de entorno o el archivo .env de SHIDO_MINTIC.")
             # Modelo primario + fallbacks de rendimiento similar.
             # Si gemini-3.5-flash esta saturado (503) o falla, se reintenta en cascada
             # con modelos flash de gama cercana antes de rendirse.

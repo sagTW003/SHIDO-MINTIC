@@ -10,9 +10,9 @@ PORT = 8081
 
 
 def _cargar_env():
-    """Carga variables de un .env en la raiz de ODEM_PORTATIL (sin dependencias)."""
+    """Carga variables de un .env en la raiz de SHIDO_MINTIC (sin dependencias)."""
     aqui = os.path.dirname(os.path.abspath(__file__))
-    raiz = os.path.dirname(os.path.dirname(aqui))  # .../ODEM_PORTATIL
+    raiz = os.path.dirname(os.path.dirname(aqui))  # .../SHIDO_MINTIC
     ruta_env = os.path.join(raiz, ".env")
     if not os.path.exists(ruta_env):
         return

@@ -48,9 +48,9 @@ except ImportError:
 # ================================================================
 
 def _cargar_env():
-    """Carga variables de un .env en la raiz de ODEM_PORTATIL (sin dependencias)."""
+    """Carga variables de un .env en la raiz de SHIDO_MINTIC (sin dependencias)."""
     aqui = os.path.dirname(os.path.abspath(__file__))
-    raiz = os.path.dirname(os.path.dirname(os.path.dirname(aqui)))  # .../ODEM_PORTATIL
+    raiz = os.path.dirname(os.path.dirname(os.path.dirname(aqui)))  # .../SHIDO_MINTIC
     ruta_env = os.path.join(raiz, ".env")
     if not os.path.exists(ruta_env):
         return
@@ -388,7 +388,7 @@ def _chat_gemini(mensaje: str) -> str:
     """Llama a Gemini via REST. Incluye system prompt + historial. Lanza excepcion si falla."""
     import requests
     if not GEMINI_API_KEY:
-        raise RuntimeError("GEMINI_API_KEY no configurada (.env de ODEM_PORTATIL).")
+        raise RuntimeError("GEMINI_API_KEY no configurada (.env de SHIDO_MINTIC).")
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={GEMINI_API_KEY}"
     contents = []
     es_primero = True
