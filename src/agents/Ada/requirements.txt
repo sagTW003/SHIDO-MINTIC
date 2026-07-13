@@ -1,0 +1,1 @@
+# fpdf2>=2.7.0  # descomenta si quieres exportar reportes en PDF

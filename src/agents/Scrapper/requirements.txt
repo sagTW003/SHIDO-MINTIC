@@ -1,0 +1,9 @@
+playwright>=1.40.0
+openpyxl>=3.1.5
+
+# Instalación del navegador:
+#   python -m playwright install chromium
+#
+# En Raspberry Pi (alternativa al browser de playwright):
+#   sudo apt install chromium-browser
+#   python -m playwright install-deps chromium

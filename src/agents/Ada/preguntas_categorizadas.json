@@ -1,0 +1,54 @@
+{
+  "Intereses_Creatividad_Innovacion": [
+    "Me gusta explorar ideas y conceptos nuevos.",
+    "Me gusta expresar ideas abstractas o artísticas.",
+    "Me resulta difícil arriesgarme de manera creativa.",
+    "Probar nuevos formatos y herramientas me llena de energía.",
+    "Prefiero romper con los patrones de pensamiento habituales.",
+    "Me motiva desarrollar ideas y proyectos de manera independiente.",
+    "No me gusta probar o implementar soluciones fuera de lo común."
+  ],
+  "Aptitudes_Analiticas_Logicas": [
+    "Prefiero estructurar la información y analizarla de forma detallada.",
+    "No me gusta trabajar con datos o estadísticas.",
+    "El pensamiento crítico y la lógica me llenan de energía.",
+    "Me gusta resolver problemas complejos que requieren investigación.",
+    "Prefiero diseñar o crear sistemas y procesos lógicos."
+  ],
+  "Personalidad_Social_Empatica": [
+    "Prefiero trabajar en equipo y colaborar con otros.",
+    "Me gusta enseñar, formar o guiar a otras personas.",
+    "La escucha activa y aconsejar a los demás me llena de energía.",
+    "Me siento agotado/a o incómodo/a cuando ayudo a las personas a crecer.",
+    "Me apasiona luchar por una causa social o comunitaria.",
+    "No me gusta contar historias o hablar en público ante grupos.",
+    "Prefiero liderar o coordinar personas en un proyecto.",
+    "Es muy poco probable que fomente la colaboración o el trabajo en equipo."
+  ],
+  "Aptitudes_Practicas_Construccion": [
+    "Se me da bien crear cosas, objetos o software desde cero.",
+    "Me gusta diseñar y construir prototipos rápidos para probar ideas.",
+    "Evito aprender a través de la práctica y prefiero la teoría pura.",
+    "Me resulta difícil o estresante probar nuevas herramientas tecnológicas o manuales.",
+    "Trabajar de manera individual o en solitario me llena de energía.",
+    "Prefiero diseñar, construir o mantener espacios físicos o digitales seguros."
+  ],
+  "Personalidad_Organizacion_Metodo": [
+    "Me siento seguro/a y cómodo/a cuando trabajo de forma metódica.",
+    "Me gusta planificar con antelación y estructurar mis tareas.",
+    "Optimizar e implementar sistemas eficientes me llena de energía.",
+    "Suelo posponer mis deberes o dejar las tareas para el último minuto.",
+    "Me resulta complicado o estresante trabajar bajo plazos estrictos.",
+    "Me resulta difícil terminar lo que empiezo o ceñirme a una planificación.",
+    "Disfruto organizar la logística y los recursos de una actividad."
+  ],
+  "Personalidad_Liderazgo_Impacto_Cambio": [
+    "Tomo la iniciativa para proponer cambios y nuevas soluciones.",
+    "Me siento seguro/a y motivado/a cuando asumo un rol de liderazgo.",
+    "Me encanta cuestionar las normas y los modelos tradicionales.",
+    "Me motiva y se me da bien adaptarme rápidamente a los cambios.",
+    "Me resulta difícil o frustrante generar un impacto real en mi entorno.",
+    "Me siento inseguro/a o incómodo/a al proponer ideas disruptivas.",
+    "Prefiero seguir métodos tradicionales en lugar de experimentar con cambios."
+  ]
+}

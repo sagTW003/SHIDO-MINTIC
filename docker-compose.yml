@@ -1,0 +1,41 @@
+# ==========================================
+# DOCKER COMPOSE - ODEM MULTIAGENTE
+# Levanta: MySQL 8.0 + Adminer (UI BD)
+# ==========================================
+
+version: '3.8'
+
+services:
+  mysql-odem:
+    image: mysql:8.0
+    container_name: mysql-odem
+    environment:
+      MYSQL_ROOT_PASSWORD: "***"
+      MYSQL_DATABASE: "odemiro_db"
+      MYSQL_USER: "odemiro"
+      MYSQL_PASSWORD: "***"
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./scripts/init-sql:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p***"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+    command: --default-authentication-plugin=mysql_native_password --max_allowed_packet=256M
+
+  adminer:
+    image: adminer
+    container_name: adminer-odem
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mysql-odem
+    restart: unless-stopped
+
+volumes:
+  mysql_data:
+    driver: local

@@ -1,0 +1,38 @@
+# ==========================================
+# DEPENDENCIAS PYTHON GLOBALES - ODEM MULTIAGENTE
+# Cada agente tiene su propio requirements.txt específico
+# Este archivo es para instalación rápida: pip3 install -r requirements.txt
+# ==========================================
+
+# Core
+requests>=2.31.0
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
+
+# Base de Datos
+mysql-connector-python>=8.2.0
+sqlalchemy>=2.0.0
+
+# IA / LLM Clients
+# Gemini se llama directamente por REST (ver src/agents/*/*.py, función
+# _chat_gemini / cascada de modelos) — no se usa el SDK google-generativeai
+# (deprecado por Google) ni su sucesor google-genai; solo se necesita `requests`.
+openai>=1.30.0
+
+# Excel / Reportes / Analítica
+openpyxl>=3.1.2
+pandas>=2.1.0
+numpy>=1.26.0
+
+# Web Scraping
+playwright>=1.40.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Utilidades
+tqdm>=4.66.0
+colorama>=0.4.6
+tabulate>=0.9.0
+
+# Testing
+pytest>=8.0.0

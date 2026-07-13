@@ -1,0 +1,36 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# ===== Secretos =====
+.env
+
+# ===== Datos crudos / temporales (NO versionar) =====
+# OJO: anclado a la raiz (/data/), NO "data/" a secas -- un patron sin ancla
+# tambien ignora scripts/init-sql/data/, y una carpeta ignorada NO se puede
+# volver a incluir con "!" (la excepcion de mas abajo para el dump real
+# nunca funcionaba por esto).
+/data/
+*.csv
+
+# ===== Reportes generados por los agentes (NO versionar) =====
+# OJO: patrón acotado a los reportes generados (Ada_Reporte_*.txt), no a
+# *.txt en general — un patrón amplio aquí ignoraría también los
+# requirements.txt de cada agente (src/agents/<Agente>/requirements.txt).
+reports/*.txt
+reports/*.xlsx
+src/agents/**/Ada_Reporte_*.txt
+src/agents/**/Scrapper_*.xlsx
+
+# ===== Dumps SQL: por defecto ignorados, EXCEPTO el dump oficial de la BD =====
+*.sql
+*.sql.gz
+!scripts/init-sql/create_schema.sql
+!scripts/init-sql/data/odemiro_db.sql.gz
+
+# ===== Sistema =====
+.DS_Store
+Thumbs.db

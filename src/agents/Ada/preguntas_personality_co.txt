@@ -1,0 +1,99 @@
+1. Me siento inseguro/a cuando exploro ideas nuevas.
+2. Prefiero estructurar la información.
+3. Prefiero trabajar en equipo.
+4. No me gusta desarrollar productos.
+5. Me siento agotado/a cuando planifico con antelación.
+6. Me gusta expresar ideas abstractas.
+7. Me siento seguro/a cuando trabajo de forma metódica.
+8. El diseño gráfico me resulta complicado.
+9. No me gusta trabajar con datos.
+10. Me gusta formar a las personas.
+11. La escucha activa me llena de energía.
+12. Me gusta dar con soluciones nuevas.
+13. Me inclino de manera natural por la creación rápida de prototipos.
+14. Me siento cómodo/a optimizando sistemas.
+15. Me siento inseguro/a cuando ayudo a las personas a crecer.
+16. Me encanta el pensamiento crítico.
+17. No me gusta contar historias.
+18. Me siento agotado/a cuando ayudo a las personas a crecer.
+19. Me gusta seguir rutinas.
+20. Me siento seguro/a en el ámbito de la logística.
+21. Prefiero crear prototipos de manera rápida.
+22. Me siento inseguro/a al proponer cambios.
+23. Se me da bien generar impacto.
+24. Es poco probable que planifique con antelación.
+25. Me encanta luchar por una causa.
+26. Se me da bien crear cosas de cero.
+27. Es poco probable que forme a otras personas.
+28. No suelo tomar la iniciativa a la hora de proponer cambios.
+29. Prefiero cuestionar la norma.
+30. Me gusta explorar ideas nuevas.
+31. No suelo inclinarme por contar historias.
+32. Evito aprender a través de la práctica.
+33. Prefiero trabajar de manera metódica.
+34. Me motiva adaptarme de manera rápida.
+35. No suelo luchar por una causa.
+36. A menudo busco la oportunidad de cuestionar las normas.
+37. Es poco probable que coordine personas.
+38. Me gusta trabajar en el ámbito de la logística.
+39. El pensamiento crítico me llena de energía.
+40. Me siento seguro/a cuando me arriesgo de manera creativa.
+41. Me resulta difícil adaptarme en poco tiempo.
+42. Me gusta trabajar de manera metódica.
+43. No me siento cómodo/a cuestionando las normas.
+44. Me siento realizado/a cuando reflexiono en profundidad.
+45. Me encanta cuestionar los modelos tradicionales.
+46. Me resulta difícil arriesgarme de manera creativa.
+47. Valoro generar impacto.
+48. Me motiva trabajar en el ámbito de la logística.
+49. Me resulta difícil generar impacto.
+50. Suelo posponer las cosas que tengo que hacer.
+51. Probar nuevos formatos y herramientas me llena de energía.
+52. Me resulta complicado trabajar con plazos.
+53. Me inclino de manera natural por un método de trabajo concreto.
+54. Es muy poco probable que decida ayudar a las personas a crecer.
+55. Me siento cómodo/a generando impacto.
+56. Me resulta difícil crear espacios seguros.
+57. Valoro arriesgarme de manera creativa.
+58. Es muy poco probable que decida cuestionar los modelos tradicionales.
+59. No me gusta trabajar en solitario.
+60. Prefiero salir en defensa de los demás.
+61. Me siento agotado/a cuando tengo que ceñirme a una planificación o delegar tareas.
+62. Me gusta resolver problemas complejos.
+63. Me resulta difícil probar nuevas herramientas.
+64. Prefiero romper con los patrones de pensamiento habituales.
+65. Evito crear algo desde cero.
+66. Me siento inseguro/a cuando lucho por una causa.
+67. Me resulta difícil terminar lo que tengo que hacer.
+68. Trabajar en solitario me llena de energía.
+69. Me gusta la escucha activa.
+70. Prefiero coordinar personas.
+71. Se me da bien resolver problemas complejos.
+72. Se me da bien trabajar con datos.
+73. Es muy poco probable que decida coordinar personas.
+74. Optimizar sistemas me llena de energía.
+75. Es muy poco probable que fomente el trabajo en equipo.
+76. Prefiero crear sistemas lógicos.
+77. Evito trabajar en solitario.
+78. A menudo busco la oportunidad de crear espacios seguros.
+79. No tengo interés en ejecutar planes.
+80. Valoro romper con los patrones de pensamiento habituales.
+81. A menudo busco la oportunidad de trabajar de manera metódica.
+82. Me motiva desarrollar ideas de manera independiente.
+83. Es muy poco probable que desarrolle ideas de manera independiente.
+84. Me resulta difícil resolver problemas complejos.
+85. Evito ceñirme a rutinas.
+86. Prefiero crear espacios seguros.
+87. Es muy poco probable que opte por el pensamiento crítico.
+88. Me siento inseguro/a cuando me arriesgo de manera creativa.
+89. Me resulta difícil cuestionar los modelos tradicionales.
+90. Me siento cómodo/a proponiendo cambios nuevos.
+91. Es muy poco probable que trabaje en solitario.
+92. No me gusta probar ideas nuevas.
+93. A menudo busco la oportunidad de seguir mi intuición.
+94. Me gusta romper con los patrones de pensamiento habituales.
+95. Prefiero optimizar sistemas.
+96. Me inclino de manera natural por la escucha activa.
+97. Me resulta muy difícil cuestionar los modelos tradicionales.
+98. Tiendo a no seguir los métodos tradicionales.
+99. A menudo doy con ideas originales cuando reflexiono en solitario.

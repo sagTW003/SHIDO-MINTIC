@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "category": "Intereses_Creatividad_Innovacion",
+    "question": "Me gusta explorar ideas y conceptos nuevos.",
+    "reversed": false
+  },
+  {
+    "id": 2,
+    "category": "Intereses_Creatividad_Innovacion",
+    "question": "Me gusta expresar ideas abstractas o artísticas.",
+    "reversed": false
+  },
+  {
+    "id": 3,
+    "category": "Intereses_Creatividad_Innovacion",
+    "question": "Me resulta difícil arriesgarme de manera creativa.",
+    "reversed": true
+  },
+  {
+    "id": 4,
+    "category": "Intereses_Creatividad_Innovacion",
+    "question": "Probar nuevos formatos y herramientas me llena de energía.",
+    "reversed": false
+  },
+  {
+    "id": 5,
+    "category": "Intereses_Creatividad_Innovacion",
+    "question": "Prefiero romper con los patrones de pensamiento habituales.",
+    "reversed": false
+  },
+  {
+    "id": 6,
+    "category": "Intereses_Creatividad_Innovacion",
+    "question": "Me motiva desarrollar ideas y proyectos de manera independiente.",
+    "reversed": false
+  },
+  {
+    "id": 7,
+    "category": "Intereses_Creatividad_Innovacion",
+    "question": "No me gusta probar o implementar soluciones fuera de lo común.",
+    "reversed": true
+  },
+  {
+    "id": 8,
+    "category": "Aptitudes_Analiticas_Logicas",
+    "question": "Prefiero estructurar la información y analizarla de forma detallada.",
+    "reversed": false
+  },
+  {
+    "id": 9,
+    "category": "Aptitudes_Analiticas_Logicas",
+    "question": "No me gusta trabajar con datos o estadísticas.",
+    "reversed": true
+  },
+  {
+    "id": 10,
+    "category": "Aptitudes_Analiticas_Logicas",
+    "question": "El pensamiento crítico y la lógica me llenan de energía.",
+    "reversed": false
+  },
+  {
+    "id": 11,
+    "category": "Aptitudes_Analiticas_Logicas",
+    "question": "Me gusta resolver problemas complejos que requieren investigación.",
+    "reversed": false
+  },
+  {
+    "id": 12,
+    "category": "Aptitudes_Analiticas_Logicas",
+    "question": "Prefiero diseñar o crear sistemas y procesos lógicos.",
+    "reversed": false
+  },
+  {
+    "id": 13,
+    "category": "Personalidad_Social_Empatica",
+    "question": "Prefiero trabajar en equipo y colaborar con otros.",
+    "reversed": false
+  },
+  {
+    "id": 14,
+    "category": "Personalidad_Social_Empatica",
+    "question": "Me gusta enseñar, formar o guiar a otras personas.",
+    "reversed": false
+  },
+  {
+    "id": 15,
+    "category": "Personalidad_Social_Empatica",
+    "question": "La escucha activa y aconsejar a los demás me llena de energía.",
+    "reversed": false
+  },
+  {
+    "id": 16,
+    "category": "Personalidad_Social_Empatica",
+    "question": "Me siento agotado/a o incómodo/a cuando ayudo a las personas a crecer.",
+    "reversed": true
+  },
+  {
+    "id": 17,
+    "category": "Personalidad_Social_Empatica",
+    "question": "Me apasiona luchar por una causa social o comunitaria.",
+    "reversed": false
+  },
+  {
+    "id": 18,
+    "category": "Personalidad_Social_Empatica",
+    "question": "No me gusta contar historias o hablar en público ante grupos.",
+    "reversed": true
+  },
+  {
+    "id": 19,
+    "category": "Personalidad_Social_Empatica",
+    "question": "Prefiero liderar o coordinar personas en un proyecto.",
+    "reversed": false
+  },
+  {
+    "id": 20,
+    "category": "Personalidad_Social_Empatica",
+    "question": "Es muy poco probable que fomente la colaboración o el trabajo en equipo.",
+    "reversed": true
+  },
+  {
+    "id": 21,
+    "category": "Aptitudes_Practicas_Construccion",
+    "question": "Se me da bien crear cosas, objetos o software desde cero.",
+    "reversed": false
+  },
+  {
+    "id": 22,
+    "category": "Aptitudes_Practicas_Construccion",
+    "question": "Me gusta diseñar y construir prototipos rápidos para probar ideas.",
+    "reversed": false
+  },
+  {
+    "id": 23,
+    "category": "Aptitudes_Practicas_Construccion",
+    "question": "Evito aprender a través de la práctica y prefiero la teoría pura.",
+    "reversed": true
+  },
+  {
+    "id": 24,
+    "category": "Aptitudes_Practicas_Construccion",
+    "question": "Me resulta difícil o estresante probar nuevas herramientas tecnológicas o manuales.",
+    "reversed": true
+  },
+  {
+    "id": 25,
+    "category": "Aptitudes_Practicas_Construccion",
+    "question": "Trabajar de manera individual o en solitario me llena de energía.",
+    "reversed": false
+  },
+  {
+    "id": 26,
+    "category": "Aptitudes_Practicas_Construccion",
+    "question": "Prefiero diseñar, construir o mantener espacios físicos o digitales seguros.",
+    "reversed": false
+  },
+  {
+    "id": 27,
+    "category": "Personalidad_Organizacion_Metodo",
+    "question": "Me siento seguro/a y cómodo/a cuando trabajo de forma metódica.",
+    "reversed": false
+  },
+  {
+    "id": 28,
+    "category": "Personalidad_Organizacion_Metodo",
+    "question": "Me gusta planificar con antelación y estructurar mis tareas.",
+    "reversed": false
+  },
+  {
+    "id": 29,
+    "category": "Personalidad_Organizacion_Metodo",
+    "question": "Optimizar e implementar sistemas eficientes me llena de energía.",
+    "reversed": false
+  },
+  {
+    "id": 30,
+    "category": "Personalidad_Organizacion_Metodo",
+    "question": "Suelo posponer mis deberes o dejar las tareas para el último minuto.",
+    "reversed": true
+  },
+  {
+    "id": 31,
+    "category": "Personalidad_Organizacion_Metodo",
+    "question": "Me resulta complicado o estresante trabajar bajo plazos estrictos.",
+    "reversed": true
+  },
+  {
+    "id": 32,
+    "category": "Personalidad_Organizacion_Metodo",
+    "question": "Me resulta difícil terminar lo que empiezo o ceñirme a una planificación.",
+    "reversed": true
+  },
+  {
+    "id": 33,
+    "category": "Personalidad_Organizacion_Metodo",
+    "question": "Disfruto organizar la logística y los recursos de una actividad.",
+    "reversed": false
+  },
+  {
+    "id": 34,
+    "category": "Personalidad_Liderazgo_Impacto_Cambio",
+    "question": "Tomo la iniciativa para proponer cambios y nuevas soluciones.",
+    "reversed": false
+  },
+  {
+    "id": 35,
+    "category": "Personalidad_Liderazgo_Impacto_Cambio",
+    "question": "Me siento seguro/a y motivado/a cuando asumo un rol de liderazgo.",
+    "reversed": false
+  },
+  {
+    "id": 36,
+    "category": "Personalidad_Liderazgo_Impacto_Cambio",
+    "question": "Me encanta cuestionar las normas y los modelos tradicionales.",
+    "reversed": false
+  },
+  {
+    "id": 37,
+    "category": "Personalidad_Liderazgo_Impacto_Cambio",
+    "question": "Me motiva y se me da bien adaptarme rápidamente a los cambios.",
+    "reversed": false
+  },
+  {
+    "id": 38,
+    "category": "Personalidad_Liderazgo_Impacto_Cambio",
+    "question": "Me resulta difícil o frustrante generar un impacto real en mi entorno.",
+    "reversed": true
+  },
+  {
+    "id": 39,
+    "category": "Personalidad_Liderazgo_Impacto_Cambio",
+    "question": "Me siento inseguro/a o incómodo/a al proponer ideas disruptivas.",
+    "reversed": true
+  },
+  {
+    "id": 40,
+    "category": "Personalidad_Liderazgo_Impacto_Cambio",
+    "question": "Prefiero seguir métodos tradicionales en lugar de experimentar con cambios.",
+    "reversed": true
+  }
+]
