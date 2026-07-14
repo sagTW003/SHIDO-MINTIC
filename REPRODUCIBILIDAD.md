@@ -60,8 +60,17 @@ make init      # instala deps, crea BD, importa datos y hace un test
 make web       # levanta la web de Ada en http://localhost:8081
 ```
 
-`make init` te pedirá la contraseña de **root de MySQL** para crear la base y el
-usuario `odemiro`.
+`make init` usa `MYSQL_ROOT_PASSWORD` (definida en `.env`, por defecto
+`root_pass_2026`) para autenticarse contra MySQL sin pedir la contraseña a
+mano. Si tu `root` de MySQL fue instalado vía `apt` (Debian/Ubuntu), por
+defecto usa el plugin `auth_socket` y no acepta contraseña por TCP — antes de
+correr `make init` debes fijarle una contraseña una vez:
+
+```bash
+sudo mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root_pass_2026'; FLUSH PRIVILEGES;"
+```
+
+(usa el mismo valor que tengas en `MYSQL_ROOT_PASSWORD` dentro de `.env`).
 
 ---
 
@@ -109,6 +118,7 @@ DB_PORT=3306
 DB_NAME=odemiro_db
 DB_USER=odemiro
 DB_PASS=odemiro_pass_2026
+MYSQL_ROOT_PASSWORD=root_pass_2026
 
 GEMINI_API_KEY=tu_key_de_google_aistudio
 NVIDIA_API_KEY=tu_key_de_nvidia
