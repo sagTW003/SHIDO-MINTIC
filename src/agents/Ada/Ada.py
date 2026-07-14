@@ -281,7 +281,7 @@ def obtener_becas(en_vivo=False, objetivo="becas y convocatorias de pregrado"):
         try:
             payload = json.dumps({"url": url, "cantidad": 5, "objetivo": objetivo, "headless": True})
             res = subprocess.run(
-                ["python3", ruta_scraper, payload],
+                [sys.executable, ruta_scraper, payload],
                 capture_output=True, text=True, timeout=90, encoding="utf-8"
             )
             # El stdout puede traer prints de progreso; tomar la ultima linea JSON valida
@@ -1079,7 +1079,7 @@ class AgenteAda:
 
         try:
             resultado = subprocess.run(
-                ["python3", RUTA_LUMINA, query],
+                [sys.executable, RUTA_LUMINA, query],
                 capture_output=True, text=True, timeout=60,
                 encoding="utf-8"
             )
@@ -1984,7 +1984,7 @@ def main():
                         pregunta_lum = f"Dame un análisis estadístico de '{carrera_int}' en {municipio_int} usando odemiro_db.snies_matriculados y riesgo de deserción en odemiro_db.desercion_academica."
                         
                         ruta_lum = os.path.join(os.path.dirname(os.path.dirname(__file__)), "Lumina", "Lumina_sql.py")
-                        res_lum = subprocess.run(['python3', ruta_lum, pregunta_lum], capture_output=True, text=True, timeout=60)
+                        res_lum = subprocess.run([sys.executable, ruta_lum, pregunta_lum], capture_output=True, text=True, timeout=60)
                         
                         if res_lum.stdout:
                             try:

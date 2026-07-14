@@ -2,6 +2,7 @@ import http.server
 import socketserver
 import json
 import subprocess
+import sys
 import os
 import urllib.request
 import urllib.parse
@@ -799,7 +800,7 @@ class AdaHandler(http.server.SimpleHTTPRequestHandler):
                 # Correr Ada.py con el JSON de entrada
                 ada_script = os.path.join(os.path.dirname(__file__), 'Ada.py')
                 result = subprocess.run(
-                    ['python3', ada_script, post_data.decode('utf-8')],
+                    [sys.executable, ada_script, post_data.decode('utf-8')],
                     capture_output=True, text=True, timeout=220
                 )
                 salida = result.stdout.strip()
