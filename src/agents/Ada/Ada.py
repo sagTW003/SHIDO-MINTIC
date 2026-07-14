@@ -1080,7 +1080,7 @@ class AgenteAda:
         try:
             resultado = subprocess.run(
                 [sys.executable, RUTA_LUMINA, query],
-                capture_output=True, text=True, timeout=60,
+                capture_output=True, text=True, timeout=120,
                 encoding="utf-8"
             )
             if resultado.returncode != 0 or not resultado.stdout.strip():
@@ -1984,7 +1984,7 @@ def main():
                         pregunta_lum = f"Dame un análisis estadístico de '{carrera_int}' en {municipio_int} usando odemiro_db.snies_matriculados y riesgo de deserción en odemiro_db.desercion_academica."
                         
                         ruta_lum = os.path.join(os.path.dirname(os.path.dirname(__file__)), "Lumina", "Lumina_sql.py")
-                        res_lum = subprocess.run([sys.executable, ruta_lum, pregunta_lum], capture_output=True, text=True, timeout=60)
+                        res_lum = subprocess.run([sys.executable, ruta_lum, pregunta_lum], capture_output=True, text=True, timeout=120)
                         
                         if res_lum.stdout:
                             try:
