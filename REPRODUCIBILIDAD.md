@@ -112,6 +112,40 @@ make load-data                                 # carga el dump en el contenedor
 
 ## 🔑 Variables de entorno (`.env`)
 
+### Cómo poner tus API Keys, paso a paso
+
+> ⚠️ **Nunca edites `.env.example` directamente.** Ese archivo es la
+> plantilla y **sí está commiteada en el repo público de GitHub** — cualquier
+> clave real que escribas ahí quedaría expuesta públicamente. Tus claves
+> reales van en `.env`, que está en `.gitignore` y nunca se sube.
+
+1. **Copia la plantilla a `.env`** (solo la primera vez; si ya existe, no lo
+   sobrescribas):
+   ```bash
+   cp .env.example .env
+   ```
+2. **Abre `.env`** (no `.env.example`) con el editor que prefieras:
+   ```bash
+   nano .env       # o: vim .env / code .env
+   ```
+3. **Consigue las keys gratis** (abre estos links en el navegador):
+   - Gemini (obligatoria): https://aistudio.google.com/apikey → botón
+     "Create API key".
+   - NVIDIA (opcional): https://build.nvidia.com/explore/discover → crea
+     cuenta → genera tu API key.
+4. **Reemplaza los placeholders** por tus claves reales. Por ejemplo:
+   ```diff
+   - GEMINI_API_KEY=tu_gemini_api_key_aqui
+   + GEMINI_API_KEY=AIzaSy...tu_clave_real...
+   - NVIDIA_API_KEY=tu_nvidia_api_key_aqui
+   + NVIDIA_API_KEY=nvapi-...tu_clave_real...
+   ```
+5. **Guarda el archivo** (`Ctrl+O`, `Enter`, `Ctrl+X` en `nano`) y sigue con
+   `make init` / `make web`. No hace falta reiniciar nada más: los agentes
+   leen `.env` en cada arranque.
+
+### Referencia de variables
+
 ```env
 DB_HOST=127.0.0.1
 DB_PORT=3306
